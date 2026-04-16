@@ -1,0 +1,174 @@
+{
+  "cameras": [
+    {
+      "id": "fx6",
+      "name": "Sony FX6",
+      "type": "Cinema"
+    },
+    {
+      "id": "fx3",
+      "name": "Sony FX3",
+      "type": "Hybrid"
+    },
+    {
+      "id": "a7iii",
+      "name": "Sony Alpha 7 III",
+      "type": "Foto/Backup"
+    }
+  ],
+  "lenses": [
+    {
+      "id": "sigma1424",
+      "name": "Sigma 14-24mm f/2.8 DG DN",
+      "type": "Weitwinkel"
+    },
+    {
+      "id": "sony28135",
+      "name": "Sony FE 28-135mm f/4 G PZ OSS",
+      "type": "Zoom"
+    },
+    {
+      "id": "sony85",
+      "name": "Sony FE 85mm f/1.8",
+      "type": "Portrait"
+    }
+  ],
+  "drones": [
+    {
+      "id": "mini3",
+      "name": "DJI Mini 3 Pro",
+      "type": "Luftaufnahmen"
+    },
+    {
+      "id": "avata2",
+      "name": "DJI Avata 2 FPV",
+      "type": "Action"
+    },
+    {
+      "id": "osmo360",
+      "name": "DJI Osmo 360",
+      "type": "360-Grad"
+    },
+    {
+      "id": "insta360",
+      "name": "Insta360 GO 3s",
+      "type": "POV"
+    }
+  ],
+  "audio": [
+    {
+      "id": "zoomh4n",
+      "name": "Zoom H4n Essential",
+      "type": "32-bit Float Recorder"
+    },
+    {
+      "id": "mk600",
+      "name": "Sennheiser MK600",
+      "type": "Richtmikrofon"
+    },
+    {
+      "id": "djmic2",
+      "name": "DJI Mic 2",
+      "type": "Wireless"
+    }
+  ],
+  "stabilization": [
+    {
+      "id": "rs4pro",
+      "name": "DJI Ronin RS4 Pro"
+    }
+  ],
+  "lighting": [
+    {
+      "id": "rollei100",
+      "name": "Rollei 100W Dauerlicht"
+    },
+    {
+      "id": "smallrig",
+      "name": "SmallRig RF 10C RGB"
+    }
+  ],
+  "batteries": [
+    {
+      "id": "mini3-akku-1",
+      "name": "DJI Mini 3 Pro Akku #1",
+      "type": "Drohne",
+      "for": "mini3",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "mini3-akku-2",
+      "name": "DJI Mini 3 Pro Akku #2",
+      "type": "Drohne",
+      "for": "mini3",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "avata2-akku-1",
+      "name": "DJI Avata 2 Akku #1",
+      "type": "Drohne",
+      "for": "avata2",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "avata2-akku-2",
+      "name": "DJI Avata 2 Akku #2",
+      "type": "Drohne",
+      "for": "avata2",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "avata2-akku-3",
+      "name": "DJI Avata 2 Akku #3",
+      "type": "Drohne",
+      "for": "avata2",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "osmo360-akku-1",
+      "name": "DJI Osmo 360 Akku #1",
+      "type": "360-Kamera",
+      "for": "osmo360",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "osmo360-akku-2",
+      "name": "DJI Osmo 360 Akku #2",
+      "type": "360-Kamera",
+      "for": "osmo360",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "osmo360-akku-3",
+      "name": "DJI Osmo 360 Akku #3",
+      "type": "360-Kamera",
+      "for": "osmo360",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "rs4pro-akku-1",
+      "name": "DJI Ronin RS4 Pro Akku",
+      "type": "Gimbal",
+      "for": "rs4pro",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "vmount-1",
+      "name": "SmallRig V99 V-Mount #1",
+      "type": "V-Mount",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "vmount-2",
+      "name": "SmallRig V99 V-Mount #2",
+      "type": "V-Mount",
+      "batteryStatus": "full"
+    },
+    {
+      "id": "vmount-3",
+      "name": "SmallRig V99 V-Mount #3",
+      "type": "V-Mount",
+      "batteryStatus": "full"
+    }
+  ]
+}

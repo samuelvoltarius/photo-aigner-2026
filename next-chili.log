@@ -1,0 +1,153 @@
+
+> website@0.1.0 dev
+> next dev --port 3010 --hostname 0.0.0.0
+
+▲ Next.js 16.1.2 (Turbopack)
+- Local:         http://localhost:3010
+- Network:       http://0.0.0.0:3010
+
+✓ Starting...
+✓ Ready in 640ms
+ HEAD / 200 in 792ms (compile: 626ms, render: 166ms)
+ GET / 200 in 90ms (compile: 7ms, render: 83ms)
+⚠ Cross origin request detected from 100.73.189.71 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /api/bookings/blocked 200 in 61ms (compile: 48ms, render: 12ms)
+✓ Compiled in 88ms
+✓ Compiled in 83ms
+✓ Compiled in 28ms
+✓ Compiled in 64ms
+✓ Compiled in 36ms
+✓ Compiled in 60ms
+ GET / 200 in 141ms (compile: 48ms, render: 92ms)
+ GET /api/bookings/blocked 200 in 10ms (compile: 3ms, render: 7ms)
+✓ Compiled in 59ms
+ GET / 200 in 75ms (compile: 5ms, render: 70ms)
+ GET /api/bookings/blocked 200 in 10ms (compile: 3ms, render: 7ms)
+ GET / 200 in 79ms (compile: 4ms, render: 75ms)
+ GET /api/bookings/blocked 200 in 11ms (compile: 4ms, render: 7ms)
+ GET / 200 in 79ms (compile: 6ms, render: 73ms)
+ GET /api/bookings/blocked 200 in 11ms (compile: 4ms, render: 7ms)
+ GET / 200 in 36ms (compile: 2ms, render: 33ms)
+ GET /api/bookings/blocked 200 in 9ms (compile: 2ms, render: 7ms)
+ GET / 200 in 68ms (compile: 3ms, render: 64ms)
+ GET /api/bookings/blocked 200 in 8ms (compile: 2ms, render: 6ms)
+ GET / 200 in 70ms (compile: 4ms, render: 67ms)
+ GET /api/bookings/blocked 200 in 8ms (compile: 1976µs, render: 6ms)
+✓ Compiled in 76ms
+✓ Compiled in 34ms
+✓ Compiled in 78ms
+✓ Compiled in 47ms
+✓ Compiled in 56ms
+ HEAD / 200 in 213ms (compile: 93ms, render: 120ms)
+ GET / 200 in 78ms (compile: 4ms, render: 74ms)
+ GET /api/bookings/blocked 200 in 18ms (compile: 2ms, render: 16ms)
+✓ Compiled in 80ms
+✓ Compiled in 31ms
+⨯ ./src/components/Services.tsx:74:23
+Parsing ecmascript source code failed
+[0m [90m 72 |[39m       { 
+ [90m 73 |[39m         name[33m:[39m [32m'Baufortschritt'[39m[33m,[39m 
+[31m[1m>[22m[39m[90m 74 |[39m         price[33m:[39m [32m'499'[39m[33m,[39m [37m[41m[1m\[22m[49m[39m
+ [90m    |[39m                       [31m[1m^[22m[39m
+ [90m 75 |[39m         desc[33m:[39m [32m'Lückenlose Dokumentation.'[39m[33m,[39m
+ [90m 76 |[39m         features[33m:[39m [[32m'Monatlicher Scan'[39m[33m,[39m [32m'Zeitraffer-Entwicklung'[39m[33m,[39m [32m'Status-Reporting'[39m[33m,[39m [32m'Plattform-Login'[39m]
+ [90m 77 |[39m       }[33m,[39m[0m
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Services.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Services.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+ GET / 500 in 1083ms (compile: 996ms, render: 87ms)
+✓ Compiled in 35ms
+ GET / 200 in 18ms (compile: 3ms, render: 15ms)
+ GET / 200 in 255ms (compile: 93ms, render: 162ms)
+ GET /api/bookings/blocked 200 in 19ms (compile: 4ms, render: 15ms)
+✓ Compiled in 33ms
+✓ Compiled in 74ms
+✓ Compiled in 59ms
+✓ Compiled in 44ms
+✓ Compiled in 32ms
+ GET / 200 in 227ms (compile: 94ms, render: 133ms)
+ GET /api/bookings/blocked 200 in 8ms (compile: 2ms, render: 6ms)
+ GET / 200 in 72ms (compile: 5ms, render: 67ms)
+ GET /api/bookings/blocked 200 in 7ms (compile: 2ms, render: 5ms)
+✓ Compiled in 77ms
+✓ Compiled in 38ms
+ GET / 200 in 230ms (compile: 94ms, render: 137ms)
+ GET /api/bookings/blocked 200 in 8ms (compile: 2ms, render: 6ms)
+ GET / 200 in 78ms (compile: 4ms, render: 74ms)
+ GET /api/bookings/blocked 200 in 9ms (compile: 2ms, render: 7ms)
+ GET / 200 in 76ms (compile: 4ms, render: 73ms)
+ GET /api/bookings/blocked 200 in 8ms (compile: 2ms, render: 6ms)
+ GET / 200 in 73ms (compile: 4ms, render: 69ms)
+ GET /api/bookings/blocked 200 in 7ms (compile: 2ms, render: 5ms)
+✓ Compiled in 33ms
+✓ Compiled in 36ms
+✓ Compiled in 31ms
+✓ Compiled in 28ms
+✓ Compiled in 27ms
+✓ Compiled in 74ms
+✓ Compiled in 65ms
+ HEAD / 200 in 227ms (compile: 92ms, render: 135ms)
+ GET / 200 in 73ms (compile: 3ms, render: 70ms)
+ GET / 200 in 67ms (compile: 3ms, render: 65ms)
+✓ Compiled in 37ms
+ GET / 200 in 119ms (compile: 93ms, render: 26ms)
+ GET / 200 in 13ms (compile: 1866µs, render: 11ms)
+✓ Compiled in 31ms
+✓ Compiled in 63ms
+✓ Compiled in 43ms
+ GET /api/bookings/blocked 200 in 17ms (compile: 3ms, render: 14ms)
+ GET /api/bookings/blocked 200 in 7ms (compile: 1736µs, render: 6ms)
+✓ Compiled in 83ms
+✓ Compiled in 32ms
+ GET /api/bookings/blocked 200 in 6ms (compile: 1903µs, render: 4ms)
+ GET /api/bookings/blocked 200 in 6ms (compile: 1687µs, render: 4ms)
+ GET / 200 in 214ms (compile: 90ms, render: 124ms)
+✓ Compiled in 67ms
+✓ Compiled in 78ms
+New booking request {
+  name: 'test',
+  email: 'test@test.com',
+  phone: 'teste',
+  date: '0548-02-01',
+  location: '',
+  service: 'Content Mini',
+  budget: '',
+  message: 'test',
+  whatsappConfirm: true,
+  receivedAt: '2026-01-16T23:47:14.157Z',
+  source: 'dashboard-manual',
+  brand: 'CHILI'
+}
+ POST /api/bookings 200 in 260ms (compile: 241ms, render: 19ms)
+✓ Compiled in 68ms
+ GET /api/bookings/blocked 200 in 8ms (compile: 3ms, render: 4ms)
+ GET /api/bookings/blocked 200 in 7ms (compile: 1550µs, render: 5ms)
+New booking request {
+  name: 'test',
+  email: 'test@test.com',
+  phone: '0054554',
+  date: '1111-05-14',
+  location: '',
+  service: 'Content Mini',
+  budget: '',
+  message: 'test',
+  whatsappConfirm: true,
+  receivedAt: '2026-01-16T23:50:30.914Z',
+  source: 'dashboard-manual',
+  brand: 'CHILI'
+}
+ POST /api/bookings 200 in 15ms (compile: 2ms, render: 13ms)
+[?25h

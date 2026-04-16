@@ -1,0 +1,8 @@
+{
+  "hochzeit": {
+    "name": "Hochzeit (Premium)",
+    "equipment": ["fx6", "fx3", "sigma1424", "sony85", "rs4pro", "mini3", "zoomh4n", "djmic2", "rollei100"],
+    "droneDisclaimer": true
+  },
+  "droneDisclaimer": "⚠️ Drohnenaufnahmen sofern gesetzlich erlaubt und Flugbedingungen es zulassen. Genehmigungen (falls erforderlich) werden vorab geklärt."
+}
